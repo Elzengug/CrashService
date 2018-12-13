@@ -5,7 +5,7 @@ using System.Text;
 
 namespace CrashService.DAL.Models.DomainModels
 {
-    class Detector : BaseEntity<int>
+    public class Detector : BaseEntity<int>
     {
         public string Location { get; set; }
     }

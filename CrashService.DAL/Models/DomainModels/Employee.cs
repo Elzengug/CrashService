@@ -5,7 +5,7 @@ using System.Text;
 
 namespace CrashService.DAL.Models.DomainModels
 {
-    class Employee: BaseEntity<int>
+    public class Employee: BaseEntity<int>
     {
         
     }

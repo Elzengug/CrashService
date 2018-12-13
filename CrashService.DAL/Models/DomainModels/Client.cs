@@ -5,7 +5,7 @@ using System.Text;
 
 namespace CrashService.DAL.Models.DomainModels
 {
-    class Client : BaseEntity<int>
+    public class Client : BaseEntity<int>
     {
         public string Name { get; set; }
         public string Email { get; set; }
